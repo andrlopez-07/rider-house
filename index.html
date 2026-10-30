@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rider House - Inicio</title>
+  <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+
+  <!-- Encabezado / Navegación principal (Común para todas las páginas) -->
+  <header class="navbar">
+    <div class="nav-left">
+      <div class="logo">RIDER <span>HOUSE</span></div>
+    </div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Inicio</a></li>
+        <li><a href="nosotros.html">Nosotros</a></li>
+        <li><a href="servicios.html">Servicios</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="usuario.html">Usuario</a></li>
+        <li><a href="motos.html">Motos</a></li>
+        <li><a href="documentos.html">Documentos</a></li>
+        <li><a href="gastos.html">Gastos</a></li>
+        <li><a href="talleres.html">Talleres</a></li>
+        <li><a href="fallas.html">Fallas</a></li>
+        <li><a href="mantenimiento.html">Mantenimiento</a></li>
+    </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Sección Hero con Carrusel CSS -->
+    <section id="inicio" class="carousel-container">
+      <div class="carousel-slides">
+        
+        <!-- Slide 1 -->
+        <input type="radio" name="slide" id="slide1" checked>
+        <div class="slide bg1">
+          <img src="img/Carrusel.jpg" alt="Moto 1" class="slide-img">
+          <div class="slide-overlay"></div>
+          <div class="slide-content">
+            <h1>PASIÓN Y RENDIMIENTO</h1>
+            <p>Mantenimiento y soluciones de alto nivel para tu motocicleta.</p>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <input type="radio" name="slide" id="slide2">
+        <div class="slide bg2">
+          <img src="img/Carrusel 2.jpg" alt="Moto 2" class="slide-img">
+          <div class="slide-overlay"></div>
+          <div class="slide-content">
+            <h1>DOMINA LA RUTA</h1>
+            <p>Diagnóstico avanzado y repuestos especializados.</p>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <input type="radio" name="slide" id="slide3">
+        <div class="slide bg3">
+          <img src="img/Carrusel 3.jpg" alt="Moto 3" class="slide-img">
+          <div class="slide-overlay"></div>
+          <div class="slide-content">
+            <h1>RIDER HOUSE CLUB</h1>
+            <p>Únete a la comunidad líder en gestión y cuidado biker.</p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Navegación del Carrusel -->
+      <div class="carousel-nav">
+        <label for="slide1" class="nav-dot"></label>
+        <label for="slide2" class="nav-dot"></label>
+        <label for="slide3" class="nav-dot"></label>
+      </div>
+    </section>
+  </main>
+
+  <!-- Pie de página -->
+  <footer class="footer">
+    <p>&copy; 2026 RIDER HOUSE. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rider House - Usuario</title>
+  <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="nav-left">
+      <div class="logo">RIDER <span>HOUSE</span></div>
+    </div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="nosotros.html">Nosotros</a></li>
+        <li><a href="servicios.html">Servicios</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="usuario.html" class="active">Usuario</a></li>
+        <li><a href="motos.html">Motos</a></li>
+        <li><a href="documentos.html">Documentos</a></li>
+        <li><a href="gastos.html">Gastos</a></li>
+        <li><a href="talleres.html">Talleres</a></li>
+        <li><a href="fallas.html">Fallas</a></li>
+        <li><a href="mantenimiento.html">Mantenimiento</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="section container" style="padding-top: 120px;">
+      <div class="section-title">
+        <h2>Perfil de Usuario</h2>
+        <p>Gestiona tu información personal y preferencias de la cuenta.</p>
+      </div>
+      <div class="about-grid">
+        <div class="about-text">
+          <h3>Información del Piloto</h3>
+          <form class="contact-form" onsubmit="event.preventDefault();">
+            <div class="form-group">
+              <label for="usr-nombre">Nombre Completo</label>
+              <input type="text" id="usr-nombre" value="" required>
+            </div>
+            <div class="form-group">
+              <label for="usr-email">Correo Electrónico</label>
+              <input type="email" id="usr-email" value="" required>
+            </div>
+            <div class="form-group">
+              <label for="usr-telefono">Teléfono de Contacto</label>
+              <input type="tel" id="usr-telefono" value="" required>
+            </div>
+            <button type="submit" class="btn-submit">Guardar Cambios</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 RIDER HOUSE. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
